@@ -1,0 +1,173 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Common Banking Transactions",
+    "line": 3,
+    "id": "common-banking-transactions",
+    "tags": [
+      {
+        "name": "@demo1",
+        "line": 1
+      }
+    ],
+    "uri": "Test\\e2e\\demo\\demo1.feature",
+    "elements": [
+      {
+        "id": "common-banking-transactions;cash-deposit-transaction",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Cash Deposit Transaction",
+        "tags": [
+          {
+            "name": "@demo1",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 574
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User clicks customer Login Button",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User selects the customer Name from DropDown",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User clicks Login Button",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Clears Transaction History",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 214
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User clicks on Deposit Button",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User enter the amount to deposit",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User clicks Deposit",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Deposit is successful",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Transaction is present in the transaction History Page",
+            "match": {
+              "location": "test\\e2e\\demo\\demo1.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5585
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "74.0.3729.157"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]

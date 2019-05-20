@@ -1,0 +1,242 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Common Banking Transactions",
+    "line": 3,
+    "id": "common-banking-transactions",
+    "tags": [
+      {
+        "name": "@demo1",
+        "line": 1
+      }
+    ],
+    "uri": "Test\\e2e\\demo\\demo1.feature",
+    "elements": [
+      {
+        "id": "common-banking-transactions;cash-deposit-transaction",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Cash Deposit Transaction",
+        "tags": [
+          {
+            "name": "@demo1",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User clicks customer Login Button",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User selects the customer Name from DropDown",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User clicks Login Button",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User clicks on Deposit Button",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User enter the amount to deposit",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User clicks Deposit",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Deposit is successful",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4
+            }
+          }
+        ]
+      },
+      {
+        "id": "common-banking-transactions;cash-withdrawal-transaction",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Cash Withdrawal Transaction",
+        "tags": [
+          {
+            "name": "@demo1",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User clicks on Withdrawal Button",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User enter the amount to Withdraw",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User clicks Withdraw",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Withdrawal is successful",
+            "match": {
+              "location": "test\\e2e\\demo\\demo.steps.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5055
+            }
+          }
+        ]
+      },
+      {
+        "id": "common-banking-transactions;cash-deposit-checking-in-transaction-history",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Cash Deposit Checking in Transaction History",
+        "tags": [
+          {
+            "name": "@demo1",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "User clicks on Transactions Button",
+            "match": {
+              "location": "test\\e2e\\demo\\demo1.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "74.0.3729.131"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
